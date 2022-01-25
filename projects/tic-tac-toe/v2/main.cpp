@@ -1,7 +1,4 @@
-// Simple Tic-Tac-Toe game developed for learning C++ 
-// 
-// Version: 1 
-#include <iostream>
+ #include <iostream>
 
 using namespace std;
 
