@@ -18,7 +18,7 @@ condition in which the first player won.
 * Validate user input for the marker. 
 
 ## Sample Output of Program 
-![Same output of the Program](/output.png)
+![Same output of the Program](output.png)
 
 ## Program Deployment 
 If you enjoyed learning about this program feel free to give it a go 
