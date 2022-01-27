@@ -22,7 +22,7 @@ condition in which the first player won.
 
 ## Program Deployment 
 If you enjoyed learning about this program feel free to give it a go 
-by copying the main.cpp file and running it on the [online c++ gdb compiler](https://www.onlinegdb.com/online_c++_compiler)
+by copying the `main.cpp` file and running it on the [online c++ gdb compiler](https://www.onlinegdb.com/online_c++_compiler)
 
    
 
