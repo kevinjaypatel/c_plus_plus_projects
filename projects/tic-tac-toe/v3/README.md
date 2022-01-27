@@ -17,7 +17,7 @@ condition in which the first player won.
 * Use C++ object oriented programming for classifying in-game objects. 
 * Validate user input for the marker. 
 
-## Sample Output of Program 
+## Sample Output  
 ![Same output of the Program](output.png)
 
 ## Program Deployment 
