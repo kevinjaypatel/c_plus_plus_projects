@@ -12,7 +12,7 @@ name for what the function is doing.
 * Use C++ object oriented programming for classifying in-game objects. 
 * Validate user input for the marker. 
 
-## Bug fixes
+## Bug Fixes
 * The first player now gets recognized for winning. Initially the program was missing the 
 condition in which the first player won. 
 * The first player was not able to enter their name and the program would directly go to the second player to request for that information. The issue arose from the fact that the initial `cin` function call to assign the first player a marker was not ignoring the newline character after the user input their marker preference. To resolve the issue we call the `cin.ignore()` function which ignores the newline character, this allowed the first player to enter their name when using the `cin` function again.  
