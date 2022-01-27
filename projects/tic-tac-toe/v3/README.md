@@ -8,14 +8,13 @@ sustained throughout the program until the game ends.
 * Renamed updatePlayerTurn() function to updateMove() to more precisely describe the function 
 name for what the function is doing. 
 
-## Bug fixes
-* The first player now gets recognized for winning. Initially the program was missing the 
-condition in which the first player won. 
-
-
 ## Upcoming Features / Use Cases 
 * Use C++ object oriented programming for classifying in-game objects. 
 * Validate user input for the marker. 
+
+## Bug fixes
+* The first player now gets recognized for winning. Initially the program was missing the 
+condition in which the first player won. 
 
 ## Sample Output  
 ![Same output of the Program](output.png)
