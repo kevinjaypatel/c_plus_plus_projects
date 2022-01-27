@@ -27,75 +27,52 @@ condition in which the first player won.
 > Player two, enter your name: Steve Jobs
 > 
 >  1 | 2 | 3
->  
-> \_-----------\_
-> 
+> \-----------\
 >  4 | 5 | 6
->  
 > -----------
 >  7 | 8 | 9
 >  
 > It's Kevin Patel's turn. Enter your slot: 1
 > 
 >  X | 2 | 3
->  
 > -----------
-> 
 >  4 | 5 | 6
->  
 > -----------
-> 
 >  7 | 8 | 9
->  
+>
 
 > It's Steve Jobs's turn. Enter your slot: 2
 > 
 > X | O | 3
-> 
 > -----------
-> 
 >  4 | 5 | 6
->  
 > -----------
-> 
 >  7 | 8 | 9
 >  
 
 > It's Kevin Patel's turn. Enter your slot: 5
 > 
 >  X | O | 3
->  
 > -----------
-> 
 >  4 | X | 6
->  
 > -----------
-> 
 >  7 | 8 | 9
 >  
 
 > It's Steve Jobs's turn. Enter your slot: 3
 > 
 >  X | O | O
->  
 > -----------
-> 
 >  4 | X | 6
->  
 > -----------
-> 
 >  7 | 8 | 9
 
 > It's Kevin Patel's turn. Enter your slot: 9
 > 
 >  X | O | O
->  
 > -----------
-> 
 >  4 | X | 6
->  
 > -----------
-> 
 >  7 | 8 | X
 >  
 
