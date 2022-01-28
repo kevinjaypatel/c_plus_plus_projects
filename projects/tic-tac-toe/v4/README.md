@@ -14,6 +14,9 @@ program. In our `Player` class, we use default arguments to determine which play
 their `marker` preference to be used in the board game. The first player has the option of setting 
 their `marker` preference, whereas the second player instance is assigned a default `marker` 
 (opposite of that of the first player). 
+* Usage of string library: We now import the string library and make use of it to assign player names. In our previous version, v3, we developed our own implementation of 
+this feature. The perks of using the string library here is that we are able to use the pre-defined functionality of a class object instead of having to implement it ourselves. In our previous implmentation for storing player names, we allocated a fixed size in memory to store the characters, however, we did not define an approach to resize the memory
+in the case the player enters more characters for their name. The benefit of using the string library is that it handles that for us! 
 
 ## Upcoming Features / Use Cases 
 * Give users the option to declare a tie or forfeit the match (either or) :-) 
@@ -22,7 +25,7 @@ their `marker` preference, whereas the second player instance is assigned a defa
 ## Bug Fixes
 * We weren't correctly validating wins. The way we were comparing a potential row win 
 was like so, `board[row][0] == board[row][1] == board[row][2]` however that would evaluate to false. 
-To return the correcr result, we made the following adjustment to our code and returned a potential 
+To return the correct result, we made the following adjustment to our code and returned a potential 
 row win like so, `board[row][0] == board[row][1] && board[row][1] == board[row][2]`  
 * Initially member functions in our `Board` class were having trouble recognizing the `Player` 
 class. Once we declared our `Player` class implementation above the `Board` class implementation, 
