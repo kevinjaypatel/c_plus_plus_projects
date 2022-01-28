@@ -20,7 +20,7 @@ their `marker` preference, whereas the second player instance is assigned a defa
 * Validate user input for the marker. 
 
 ## Bug Fixes
-* We weren't correctly validating wins. The way how we were comparing a potential row win 
+* We weren't correctly validating wins. The way we were comparing a potential row win 
 was like so, `board[row][0] == board[row][1] == board[row][2]` however that would evaluate to false. 
 To return the correcr result, we made the following adjustment to our code and returned a potential 
 row win like so, `board[row][0] == board[row][1] && board[row][1] == board[row][2]`  
