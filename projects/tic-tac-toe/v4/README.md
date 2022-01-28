@@ -14,7 +14,7 @@ program. In our `Player` class, we use default arguments to determine which play
 their `marker` preference to be used in the board game. The first player has the option of setting 
 their `marker` preference, whereas the second player instance is assigned a default `marker` 
 (opposite of that of the first player). 
-* Usage of string library: We now import the string library and make use of it to assign player names. In our previous version, v3, we developed our own implementation of 
+* Usage of `string` library: We now import the string library and make use of it to assign player names. In our previous version, v3, we developed our own implementation of 
 this feature. The perks of using the string library here is that we are able to use the pre-defined functionality of a class object instead of having to implement it ourselves. In our previous implmentation for storing player names, we allocated a fixed size in memory to store the characters, however, we did not define an approach to resize the memory
 in the case the player enters more characters for their name. The benefit of using the string library is that it handles that for us! 
 
